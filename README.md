@@ -1,24 +1,16 @@
-# README
+# Rails Engine APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An example rails app with a mountable CMS engine
 
-Things you may want to cover:
+### Running locally
+``` bash
+git clone git@github.com:gauravtiwari/rails-engine-app.git
+cd rails-engine-app
+bundle install
+bundle exec rake db:create db:migrate db:seed
+rails s
+```
 
-* Ruby version
+Visit localhost:3000/cms
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+login: admin@example.com, password: 'password'
