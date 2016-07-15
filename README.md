@@ -13,4 +13,4 @@ rails s
 
 Visit localhost:3000/cms
 
-login: admin@example.com, password: 'password'
+login: admin@example.com, password: password
